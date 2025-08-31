@@ -1,0 +1,129 @@
+Build a modern animated personal portfolio website for Muhammad Anees using HTML5, CSS3, and minimal JavaScript (only for animations/modals).
+
+Design & UI/UX Requirements:
+
+Dark Mode First with a modern glassmorphism / neumorphism style.
+
+Full responsive design (desktop, tablet, mobile).
+
+Advanced animations: smooth scroll, fade-in sections, hover effects on cards, animated timeline, glowing accent hover states.
+
+Navigation bar fixed at top with menu items: Home, About, Experience, Skills, Education, Certifications, Projects, Contact.
+
+Smooth scroll + highlight active section in nav.
+
+Content to Include:
+1. Header / Hero Section
+
+Name: Muhammad Anees
+
+Title: SEO Specialist | Digital Marketing | Web Developer
+
+Animated text effect on tagline.
+
+Contact buttons: Email (aneesm280@gmail.com), Phone (+92 303 818 7041), Upwork Profile (link placeholder), Portfolio Button.
+
+2. About Section
+
+Short summary:
+“Solely managing marketing at WorkHub with AI-driven SEO & growth marketing. Generated 1000%+ organic traffic growth via advanced SEO strategies. Executed AI-powered campaign optimisation to boost CTR & ROI. Built scalable growth marketing systems delivering exponential results. Driving brand positioning & lead generation through AI-enabled content and automation.”
+
+3. Experience Section (Timeline Design)
+
+WorkHub Platform INC. – AI Digital Marketing Strategist | Mar 2021 – Present
+
+R-ACT Solutions, Lahore – Digital Marketing Executive | Feb 2020 – Feb 2021
+
+Computer Lecturer – Islamia College of Commerce, Jhang | Aug 2018 – Jan 2021
+
+Intern, Higher Education Commission | Jul 2017 – Jun 2018
+
+Android Developer, SOFIT Islamabad | Sep 2016 – Aug 2017
+
+Timeline should be animated on scroll.
+
+4. Skills Section
+
+Showcase as progress bars or icon grid:
+
+SEO & Content Strategy
+
+AI-Powered Marketing
+
+Google Analytics
+
+WordPress, Shopify, Webflow
+
+Website Development
+
+Figma to WordPress
+
+Email Marketing
+
+Google & Meta Ads
+
+Project Management
+
+Product Hunt Launching
+
+5. Education Section
+
+GC University, Faisalabad – Graduation (2012–2016, 66%)
+
+Islamia College of Commerce, Jhang
+
+6. Certifications Section
+
+Cards with hover effect:
+
+Digiskills – SEO, Freelancing
+
+HubSpot / Semrush Academy – SEO, Inbound Marketing, Keyword Research, AI Marketing (all in 2024-2025)
+
+7. Projects Section (Separate Page)
+
+Show projects in cards with thumbnails (I will replace placeholder images).
+
+On click of each card → open modal popup with: project title, description, tags, services performed, results, and up to 2 images/screenshots.
+
+Projects to include Own Products + Client Projects + Others (from provided list).
+
+Example projects:
+
+WebHostTricks – Affiliate blog, sold for $250 on Flippa.
+
+WriteMagicKit – AI tools site built with OpenAI API, sold for $200.
+
+InspireDeals – Local eCommerce store with dropshipping.
+
+SeasonalQuotes – AI quotes generator (Claude API).
+
+BRAVO, WorkHub, TheySaid, Arcadia Studios, Coeus Solutions, etc.
+
+8. Contact Section
+
+Email: aneesm280@gmail.com
+
+Phone: +92 303 818 7041
+
+Address: Lahore, Pakistan
+
+Links: LinkedIn, GitHub, Upwork
+
+9. Footer
+
+Simple footer with copyright + quick links.
+
+Extra Instructions for AI:
+
+Code must be well-structured with comments for easy edits.
+
+Keep all content dynamic & modular (sections separated clearly).
+
+Use CSS animations & transitions for pro feel.
+
+Ensure project modals are smooth with fade/slide animations.
+
+Use card hover effects, glowing CTA buttons, and gradient highlights for advanced UI look.
+linkedin link- https://www.linkedin.com/in/muhammad-anees-39330612a/
+upwork link -https://upwork.com/freelancers/aneesu7
