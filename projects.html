@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Muhammad Anees</title>
+    <meta name="description" content="Portfolio of digital marketing projects and campaigns by Muhammad Anees">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Fixed Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"><span>M</span>Anees</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+                <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+                <li><a href="index.html#education" class="nav-link">Education</a></li>
+                <li><a href="index.html#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Hero Section -->
+    <section class="projects-hero">
+        <div class="container">
+            <h1 class="hero-title">My Projects</h1>
+            <p class="hero-subtitle">Explore my portfolio of digital marketing campaigns, web development projects, and innovative solutions that drive business growth.</p>
+        </div>
+    </section>
+
+    <!-- Projects Filter -->
+    <section class="projects-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="digital-marketing">Digital Marketing</button>
+                <button class="filter-btn" data-filter="web-development">Web Development</button>
+                <button class="filter-btn" data-filter="seo">SEO</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-main">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card" data-category="digital-marketing">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="action-btn" onclick="openModal('project1')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <a href="#" class="action-btn" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Powered Marketing Campaign</h3>
+                        <p>Comprehensive digital marketing campaign leveraging artificial intelligence for content optimization, audience targeting, and performance analysis.</p>
+                        <div class="project-details">
+                            <div class="project-meta">
+                                <span><i class="fas fa-calendar"></i> 2024</span>
+                                <span><i class="fas fa-user"></i> WorkHub</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">AI</span>
+                                <span class="tag">Content Strategy</span>
+                                <span class="tag">Analytics</span>
+                                <span class="tag">Automation</span>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">200%</span>
+                                <span class="stat-label">Engagement Increase</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">150%</span>
+                                <span class="stat-label">Conversion Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card" data-category="seo web-development">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="action-btn" onclick="openModal('project2')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <a href="#" class="action-btn" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce SEO Optimization</h3>
+                        <p>Complete technical and content SEO overhaul for a major e-commerce platform, including site architecture optimization and conversion rate improvements.</p>
+                        <div class="project-details">
+                            <div class="project-meta">
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                                <span><i class="fas fa-user"></i> E-commerce Client</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">SEO</span>
+                                <span class="tag">E-commerce</span>
+                                <span class="tag">Technical SEO</span>
+                                <span class="tag">Analytics</span>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">300%</span>
+                                <span class="stat-label">Organic Traffic</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">150%</span>
+                                <span class="stat-label">Conversion Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card" data-category="web-development digital-marketing">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="action-btn" onclick="openModal('project3')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <a href="#" class="action-btn" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Brand Identity & Website Redesign</h3>
+                        <p>Complete brand overhaul and website redesign using Webflow, focusing on user experience optimization and lead generation improvement.</p>
+                        <div class="project-details">
+                            <div class="project-meta">
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                                <span><i class="fas fa-user"></i> Startup Client</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">Branding</span>
+                                <span class="tag">Webflow</span>
+                                <span class="tag">UX/UI</span>
+                                <span class="tag">Lead Generation</span>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">180%</span>
+                                <span class="stat-label">Lead Generation</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">95%</span>
+                                <span class="stat-label">User Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card" data-category="automation digital-marketing">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="action-btn" onclick="openModal('project4')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <a href="#" class="action-btn" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Social Media Automation Suite</h3>
+                        <p>Custom-built social media automation system that streamlines content publishing, engagement tracking, and performance analysis across multiple platforms.</p>
+                        <div class="project-details">
+                            <div class="project-meta">
+                                <span><i class="fas fa-calendar"></i> 2024</span>
+                                <span><i class="fas fa-user"></i> Internal Project</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">Automation</span>
+                                <span class="tag">Social Media</span>
+                                <span class="tag">Custom Development</span>
+                                <span class="tag">API Integration</span>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">20+</span>
+                                <span class="stat-label">Hours Saved/Week</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">85%</span>
+                                <span class="stat-label">Efficiency Increase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card glass-card" data-category="digital-marketing seo">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="action-btn" onclick="openModal('project5')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <a href="#" class="action-btn" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Local SEO Campaign for Restaurant Chain</h3>
+                        <p>Comprehensive local SEO strategy for a restaurant chain, including Google My Business optimization, local content creation, and review management.</p>
+                        <div class="project-details">
+                            <div class="project-meta">
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                                <span><i class="fas fa-user"></i> Restaurant Client</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">Local SEO</span>
+                                <span class="tag">GMB Optimization</span>
+                                <span class="tag">Content Marketing</span>
+                                <span class="tag">Review Management</span>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">250%</span>
+                                <span class="stat-label">Local Visibility</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">40%</span>
+                                <span class="stat-label">Foot Traffic Increase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card glass-card" data-category="web-development automation">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="action-btn" onclick="openModal('project6')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <a href="#" class="action-btn" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Marketing Analytics Dashboard</h3>
+                        <p>Custom analytics dashboard that consolidates data from multiple marketing channels, providing real-time insights and automated reporting.</p>
+                        <div class="project-details">
+                            <div class="project-meta">
+                                <span><i class="fas fa-calendar"></i> 2024</span>
+                                <span class="fas fa-user"></i> Enterprise Client</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">Analytics</span>
+                                <span class="tag">Dashboard</span>
+                                <span class="tag">Data Visualization</span>
+                                <span class="tag">API Integration</span>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">90%</span>
+                                <span class="stat-label">Time Saved</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Data Accuracy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content glass-card">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be injected via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <section class="projects-cta">
+        <div class="container">
+            <div class="cta-content glass-card">
+                <h2>Ready to Start Your Next Project?</h2>
+                <p>Let's collaborate to create innovative digital marketing solutions that drive real business results.</p>
+                <div class="cta-buttons">
+                    <a href="index.html#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="mailto:anees@example.com" class="btn btn-secondary">Send Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Muhammad Anees</h3>
+                    <p>Digital Marketing Strategist driving brand growth with AI & innovative solutions.</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/anees" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/anees" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://upwork.com/freelancers/anees" target="_blank" class="social-link">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                    <a href="https://twitter.com/anees" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Muhammad Anees. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Projects Page -->
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Project filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filterValue === 'all') {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'scale(1)';
+                        }, 100);
+                    } else {
+                        const categories = card.getAttribute('data-category');
+                        if (categories.includes(filterValue)) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'scale(1)';
+                            }, 100);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    }
+                });
+            });
+        });
+
+        // Modal functionality
+        function openModal(projectId) {
+            const modal = document.getElementById('projectModal');
+            const modalBody = document.getElementById('modalBody');
+            
+            // Project data (in a real application, this would come from a database or API)
+            const projectData = {
+                project1: {
+                    title: 'AI-Powered Marketing Campaign',
+                    description: 'A comprehensive digital marketing campaign that leveraged artificial intelligence to optimize content creation, audience targeting, and performance analysis. This project involved developing custom AI algorithms to analyze user behavior patterns and automatically adjust campaign parameters for maximum engagement.',
+                    details: [
+                        'Implemented machine learning algorithms for content optimization',
+                        'Developed automated A/B testing framework',
+                        'Created real-time performance monitoring dashboard',
+                        'Integrated with multiple social media APIs',
+                        'Built predictive analytics for campaign forecasting'
+                    ],
+                    technologies: ['Python', 'TensorFlow', 'Google Analytics API', 'Facebook API', 'Custom Dashboard'],
+                    results: '200% increase in engagement, 150% boost in conversion rates, 50% reduction in campaign management time'
+                },
+                // Add more project data as needed
+            };
+
+            const project = projectData[projectId];
+            if (project) {
+                modalBody.innerHTML = `
+                    <h2>${project.title}</h2>
+                    <p class="project-description">${project.description}</p>
+                    <div class="project-details-modal">
+                        <h3>Key Features:</h3>
+                        <ul>
+                            ${project.details.map(detail => `<li>${detail}</li>`).join('')}
+                        </ul>
+                        <h3>Technologies Used:</h3>
+                        <div class="tech-tags">
+                            ${project.technologies.map(tech => `<span class="tag">${tech}</span>`).join('')}
+                        </div>
+                        <h3>Results:</h3>
+                        <p class="project-results">${project.results}</p>
+                    </div>
+                `;
+            }
+
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('projectModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        window.addEventListener('click', (e) => {
+            const modal = document.getElementById('projectModal');
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Fade in animation for project cards
+        const observerOptions = {
+            threshold: 0.2,
+            rootMargin: '0px'
+        };
+
+        const fadeObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Apply fade-in animation to project cards
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            fadeObserver.observe(card);
+        });
+    </script>
+</body>
+</html>
