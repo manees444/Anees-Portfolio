@@ -1,0 +1,102 @@
+i have done these projects
+Own Products:
+1. WebHostTricks 
+https://webhosttricks.com/
+This is my first website which I built for my practices and promote Web Hosting and Domain Service Provider as an affiliate marketing and also write informative articles, how-to guides about the WordPress and digital marketing. 
+
+The below is the screenshot of Google Analytics. I sold this website on Flippa around $250 1.5 year ago. 
+
+
+2. WriteMagicKit 
+https://writemagickit.com/
+
+This was my website about the free AI tools. That includes many different SEO and content writing tools. I built this tool with ChatGPT and sold this around $200 1 year ago. 
+
+
+
+3. InspireDeals
+https://inspiredeals.pk/
+
+This was my eCommerce store and I have tried local dropshipping for 1 month and got 3 sales under 10000 Ad Spent. 
+4. SeasonalQuotes
+https://seasonalquotes.com/
+
+This is my new AI tools website which generate Quotes, Message, Wishes and Greetings with the user input according to their needs. This is the fresh website I have started from the last week of Jan 2025.
+
+
+
+Client Projects:
+1. BRAVO
+getbravo.io
+
+BRAVO is a flagship product from my company WorkHub Platform INC. BRAVO is an Employee Rewards and Recognition software. I have performed the following tasks on this website in the last 4 years
+SEO
+Content Marketing
+WordPress Management
+Figma to WordPress website development (with WPBakery Builder)
+Reputation Management (G2, Capterra etc)
+Deals Listing (Appsumo, DealFuel etc.)
+
+
+2. WorkHub
+https://workhub.ai/
+WorkHub is a SaaS base company which includes multiple product,s including
+WorkHub Connect
+WorkHub Tasks
+WorkHub Scheduling
+WorkBot - AI Chatbot
+AI Agents
+Knowledge Management
+I am performing full-time services as BRAVO on the WorkHub website, too. Currentl,y we are focusing on its WorkBot AI Chatbot
+
+3. Arcadia Studios
+https://arcadiastudios.de/
+
+Arcadia Studios is the website related to game development services, and I have designed its homepage from PSD to WordPress using Elementor page builder.
+
+
+4. Coeus Solutions
+Coeus Solutions is the sister company of WorkHub, and I have redesigned its website and also done SEO in the past 3 years.
+
+
+5. TheySaid
+TheySaid is an AI-based survey platform and a competitor to SurveyMonkey. I started the work on this in December 2024 and am still working on it. You can check the stats in the screenshot below.
+
+6. FRIXM
+website development -tag(website develpoment, avada)
+
+7. TD.org -tag (website development, Avada)
+this is the NGO website and i have developed all the other events website for this NGO using WordPRess and Avada theme
+
+list down these Projects are
+vidmonials.com
+vibrantservices.com
+travelerninja.com
+preparebuddy.com
+saasmarketinggurus.com
+oysterod.com
+woodsshop.com
+also improve the UI of porjects page and optimzied the headings
+on each model open and 1-2 images too and on clicks on the iamges it should show on full screens.
+do not have open link icon
+the project thumbnail should have the images rather then icon
+
+the website logo
+Logo:
+A wordmark logo → “Muhammad Anees” with “Anees” highlighted in cyan (#38BDF8), subtitle below: SEO | Marketing | Web Development.
+
+Favicon:
+A circle badge with “MA” in white text, background gradient cyan → indigo.
+
+trim this about section content and update on the homepage about section
+My professional journey began in 2016, immediately after completing my 𝗕𝗦 𝗶𝗻 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 from GC University Faisalabad, with an enriching 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗶𝗻𝘁𝗲𝗿𝗻𝘀𝗵𝗶𝗽 at SOFIT Islamabad. This foundational experience was followed by a year-long 𝗶𝗻𝘁𝗲𝗿𝗻𝘀𝗵𝗶𝗽 𝗮𝘁 𝘁𝗵𝗲 𝗛𝗶𝗴𝗵𝗲𝗿 𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻 𝗖𝗼𝗺𝗺𝗶𝘀𝘀𝗶𝗼𝗻 (HEC) Pakistan in 2017-2018, further solidifying my technical acumen. After a period as a Computer Teacher at my hometown college, I recognized a pivotal shift in my career aspirations, leading me to immerse myself fully in the 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗺𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴 𝗹𝗮𝗻𝗱𝘀𝗰𝗮𝗽𝗲.
+
+From 2019 to 2020, I diligently self-learned and honed my skills through online platforms like Digiskills, culminating in the development of my own successful blog. This hands-on experience allowed me to generate 𝘰𝘳𝘨𝘢𝘯𝘪𝘤 𝘵𝘳𝘢𝘧𝘧𝘪𝘤 and achieve 𝘪𝘯𝘪𝘵𝘪𝘢𝘭 𝘢𝘧𝘧𝘪𝘭𝘪𝘢𝘵𝘦 𝘪𝘯𝘤𝘰𝘮𝘦, cementing my passion for digital growth.
+
+My dedication led me to R-Act Solution, 𝗮 𝗺𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴 𝗮𝗴𝗲𝗻𝗰𝘆 𝗶𝗻 𝗟𝗮𝗵𝗼𝗿𝗲, where my capabilities quickly impressed my team lead, transitioning my internship into a 𝗳𝘂𝗹𝗹-𝘁𝗶𝗺𝗲 𝗿𝗼𝗹𝗲 𝘄𝗶𝘁𝗵𝗶𝗻 𝘁𝗵𝗲 𝗳𝗶𝗿𝘀𝘁 𝘄𝗲𝗲𝗸. Here, I gained invaluable experience managing diverse projects, including BRAVO, WorkHub, ProsperityWeb and many others. Following a strategic merger in 2021, I 𝗼𝗳𝗳𝗶𝗰𝗶𝗮𝗹𝗹𝘆 𝗷𝗼𝗶𝗻𝗲𝗱 𝗪𝗼𝗿𝗸𝗛𝘂𝗯, where I have since been instrumental in driving all facets of digital marketing.
+
+At WorkHub, I've propelled the 𝙤𝙧𝙜𝙖𝙣𝙞𝙘 𝙩𝙧𝙖𝙛𝙛𝙞𝙘 𝙖𝙣𝙙 𝙡𝙚𝙖𝙙 𝙜𝙚𝙣𝙚𝙧𝙖𝙩𝙞𝙤𝙣 for both BRAVO and WorkHub to new heights, consistently achieving monthly growth. In the evolving landscape of 2025, with the significant advancements in AI, I now operate as the 𝘴𝘰𝘭𝘦 𝘮𝘦𝘮𝘣𝘦𝘳 𝘰𝘧 𝘵𝘩𝘦 𝘮𝘢𝘳𝘬𝘦𝘵𝘪𝘯𝘨 𝘵𝘦𝘢𝘮. 
+
+My role involves managing and optimizing the BRAVO and WorkHub websites through innovative techniques like "𝘝𝘪𝘣𝘦 𝘊𝘰𝘥𝘪𝘯𝘨". This involves leveraging Replit and Bolt to rapidly create attractive, section-by-section new pages, ensuring efficiency and aesthetic consistency. Furthermore, I apply "𝘝𝘪𝘣𝘦 𝘔𝘢𝘳𝘬𝘦𝘵𝘪𝘯𝘨" by integrating ChatGPT, Gemini, and Claude to automate tasks, enhance productivity, and consistently improve marketing results.
+
+My journey is a testament to continuous learning, adaptability, and a relentless pursuit of digital excellence. I am passionate about crafting comprehensive digital strategies that resonate, engage, and deliver measurable brand growth.
