@@ -1,0 +1,95 @@
+Build a personal portfolio website using HTML and CSS only (no frameworks, no JS required unless for animation effects). The design must follow modern UI/UX trends, be fully responsive, and feature a dark mode theme with professional animations and transitions.
+
+🖥️ Website Requirements:
+
+Homepage Sections:
+
+Header / Navigation Menu (fixed top, smooth scroll, links to all sections: About, Experience, Skills, Education, Certifications, Projects, Contact).
+
+Hero Section – My name “Muhammad Anees” with a subtitle (Digital Marketing Strategist at WorkHub | Driving Brand Growth with AI & Vibe Coding). Animated text or fade-in effect.
+
+About / Objective Section – Short introduction and career objective in a card layout.
+
+Experience Section – Timeline design (modern vertical/animated timeline) showing job experiences with roles, companies, and achievements.
+
+Skills Section – Grid or progress bars showing SEO, Digital Marketing, WordPress, Webflow, Google Analytics, etc.
+
+Education Section – List styled with icons and years.
+
+Certifications Section – Card layout for certifications (title, provider, year).
+
+Projects Section (Preview) – Showcase 3–4 projects in card style with images/screenshots and short descriptions. Each card links to the Projects Page.
+
+Contact Section – Include a call-to-action button linking to my email and Upwork profile.
+
+Projects Page:
+
+Grid or card-based layout.
+
+Each project card must show: project title, description, screenshot (placeholder), and link if available.
+
+Use modern hover effects and animations.
+
+Design & UI/UX:
+
+Dark mode (modern, minimal, elegant).
+
+Advanced animations (smooth hover, fade-in, scroll effects, timeline animations).
+
+Rounded cards, neumorphism or glassmorphism style, soft shadows.
+
+Typography should be clean and professional (use Google Fonts).
+
+Responsive design (desktop, tablet, mobile).
+
+Footer:
+
+Social links (LinkedIn, GitHub, Upwork).
+
+Simple copyright.
+
+⚡ Extra Instructions for AI:
+
+Code must be clean, semantic HTML5 and CSS3.
+
+Use separate CSS file for styling.
+
+Include comments in code to guide future edits.
+
+Ensure site feels like it’s designed by a professional UI/UX designer with smooth animations.
+
+🎨 Colour Palette (Dark Mode First)
+
+We’ll go with a sleek dark theme with vibrant accents for a modern look:
+
+Background (Primary Dark): #0F172A (deep navy black – modern, not harsh black)
+
+Card/Section Background: #1E293B (slightly lighter dark for contrast)
+
+Primary Accent (Highlight/Links/Buttons): #38BDF8 (bright cyan/blue – tech & modern)
+
+Secondary Accent: #FACC15 (warm golden yellow – highlights CTA like “Contact Me”)
+
+Text (Primary): #F1F5F9 (light grey/white for readability)
+
+Text (Secondary / Muted): #94A3B8 (muted grey-blue for subtitles, descriptions)
+
+Hover Effects: Gradient of #38BDF8 → #6366F1 (cyan to indigo for interactive feel)
+
+🔤 Typography (Fonts)
+
+Use Google Fonts for modern, professional aesthetics:
+
+Headings (Name, Section Titles):
+
+Nunito (Bold) → Clean, modern, geometric (perfect for tech portfolios)
+
+Example: font-family: ' Nunito', sans-serif;
+
+Body Text (About, Experience, Skills, Project Details):
+
+Raleway (Regular/Medium) → Highly readable, modern UI font
+
+Example: font-family: 'Raleway', sans-serif;
+
+Accent (Timeline / Small Details / Callouts):
