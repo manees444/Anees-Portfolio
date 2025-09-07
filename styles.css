@@ -362,6 +362,13 @@ img {
     color: #FACC15;
     font-family: 'Nunito', sans-serif;
 }
+.stat-number-project {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FACC15;
+    font-family: 'Nunito', sans-serif;
+}
 
 .stat-label {
     font-size: 0.9rem;
@@ -785,6 +792,7 @@ img {
 .projects-cta {
     text-align: center;
     margin-top: 3rem;
+    margin-bottom: 32px;
 }
 
 /* Projects Page Specific Styles */
