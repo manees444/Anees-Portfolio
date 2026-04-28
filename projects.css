@@ -39,7 +39,7 @@
     background: rgba(124, 223, 100, 0.05);
     color: var(--text-secondary);
     cursor: pointer;
-    font: 500 13px "DM Sans", sans-serif;
+    font: 500 13px "Inter", "Open Sans", sans-serif;
     letter-spacing: .03em;
     transition: .25s ease;
 }
