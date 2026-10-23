@@ -109,6 +109,11 @@
 
 .project-card:hover .project-img { transform: scale(1.06); }
 
+.project-img-contain { object-fit: contain; padding: 48px; }
+.project-img-fallback { height: 100%; display: grid; place-items: center; }
+.project-meta a { color: var(--accent-primary); }
+.project-meta a:hover { text-decoration: underline; }
+
 .project-overlay {
     position: absolute;
     inset: 0;
