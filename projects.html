@@ -3,81 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Anees Projects | SEO, AI Automation & Growth Portfolio</title>
+    <title>Projects and Client Work | Muhammad Anees</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%237CDF64;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%237DC95E;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='50' cy='50' r='50' fill='url(%23grad)'/%3E%3Ctext x='50' y='60' font-family='Arial, sans-serif' font-size='32' font-weight='bold' text-anchor='middle' fill='white'%3EMA%3C/text%3E%3C/svg%3E">
-    <meta name="description" content="Explore Muhammad Anees's project portfolio featuring SEO growth campaigns, AI automation builds, SaaS marketing work, and conversion-focused websites.">
+    <meta name="description" content="SEO and content work for SaaS brands like BRAVO and WorkHub, plus sites I built and sold. See the projects behind the service.">
+    <link rel="canonical" href="https://anees-portfolio-two.vercel.app/projects">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Muhammad Anees">
+    <meta property="og:title" content="Projects and Client Work | Muhammad Anees">
+    <meta property="og:description" content="SEO and content work for SaaS brands, plus sites I built and sold.">
+    <meta property="og:url" content="https://anees-portfolio-two.vercel.app/projects">
+    <meta property="og:image" content="https://anees-portfolio-two.vercel.app/images/og-cover.png">
+    <meta property="og:image:alt" content="SEO + AI-search (AEO) for B2B SaaS, Muhammad Anees">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/projects.css">
     <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-    <!-- Fixed Navigation -->
-    <nav class="navbar" id="navbar">
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <nav class="navbar" id="navbar" aria-label="Main">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="index.html">Muhammad <span>Anees</span></a>
+                <a href="/">Muhammad <span>Anees</span></a>
+                <div class="nav-tagline">SEO | AEO | GEO for B2B SaaS</div>
             </div>
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="index.html#about" class="nav-link">About</a></li>
-                <li><a href="index.html#experience" class="nav-link">Experience</a></li>
-                <li><a href="index.html#skills" class="nav-link">Skills</a></li>
-                <li><a href="index.html#education" class="nav-link">Education</a></li>
-                <li><a href="index.html#certifications" class="nav-link">Certifications</a></li>
-                <li><a href="projects.html" class="nav-link active">Projects</a></li>
-                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="/#services" class="nav-link">Services</a></li>
+                <li><a href="/#process" class="nav-link">Process</a></li>
+                <li><a href="/#sample-audit" class="nav-link">Sample audit</a></li>
+                <li><a href="/#about" class="nav-link">About</a></li>
+                <li><a href="/#audit" class="nav-link">Contact</a></li>
             </ul>
-            <div class="hamburger" id="hamburger">
+            <a href="/#audit" class="btn btn-primary nav-cta">Get a free audit</a>
+            <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-overlay">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
         </div>
     </nav>
 
+    <div class="mobile-overlay" id="mobile-overlay">
+        <ul class="mobile-menu-list">
+            <li><a href="/#services" class="nav-link">Services</a></li>
+            <li><a href="/#process" class="nav-link">Process</a></li>
+            <li><a href="/#sample-audit" class="nav-link">Sample audit</a></li>
+            <li><a href="/#about" class="nav-link">About</a></li>
+            <li><a href="/#audit" class="nav-link">Contact</a></li>
+            <li><a href="/#audit" class="btn btn-primary">Get a free audit</a></li>
+        </ul>
+    </div>
+
+    <main id="main">
     <section class="projects-hero">
         <div class="container">
-            <p class="eyebrow">PORTFOLIO SHOWCASE</p>
-            <h1 class="hero-title">My Projects</h1>
-            <p class="hero-subtitle">Explore my portfolio of digital marketing campaigns, web development projects, and innovative solutions that drive business growth.</p>
+            <p class="eyebrow">Projects</p>
+            <h1 class="hero-title">Projects and client work</h1>
+            <p class="hero-subtitle">SEO, content and web work for SaaS brands, plus sites I built, grew and sold myself.</p>
         </div>
     </section>
 
     <section class="client-logo-slider">
         <div class="container">
-            <p class="eyebrow reveal">PREMIUM CLIENTS</p>
-            <h2 class="section-title reveal">Brands Behind the Work</h2>
-            <p class="section-subtitle reveal">A rolling showcase of partner brands and product ecosystems where strategy, SEO, and execution drove measurable impact.</p>
-            <div class="logo-marquee-shell reveal" aria-label="Client logo carousel">
-                <div class="logo-marquee-track">
-                    <div class="logo-marquee-group">
-                        <div class="logo-item"><img src="images/Core4-logo.png" alt="Core4 logo" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/TheySaid-logo.png" alt="TheySaid logo" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/SMG-logo.png" alt="SMG logo" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/Traveler_Ninja-logo.png" alt="Traveler Ninja logo" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/BRAVO-logo.png" alt="BRAVO logo" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/WriteMagicKit-logo.png" alt="WriteMagicKit logo" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/vibrantservices-logo.png" alt="Vibrant Services logo" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/preparebuddy-logo.png" alt="PrepareBuddy logo" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/woodsshop-logo.png" alt="WoodsShop logo" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/Frixm-logo.png" alt="Frixm logo" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                    </div>
-                    <div class="logo-marquee-group" aria-hidden="true">
-                        <div class="logo-item"><img src="images/Core4-logo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/TheySaid-logo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/SMG-logo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/Traveler_Ninja-logo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/BRAVO-logo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/WriteMagicKit-logo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/vibrantservices-logo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/preparebuddy-logo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/woodsshop-logo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                        <div class="logo-item"><img src="images/Frixm-logo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').remove()"></div>
-                    </div>
+            <p class="eyebrow reveal">Work history</p>
+            <h2 class="section-title reveal">Brands I have worked on</h2>
+            <div class="logo-groups">
+                <div class="logo-group glass-card reveal">
+                    <h3>Clients</h3>
+                    <ul class="logo-grid" role="list" style="list-style:none">
+                        <li class="logo-cell"><div class="logo-item"><img src="/images/BRAVO-logo.png" alt="BRAVO employee recognition software logo" width="600" height="200" loading="lazy"></div><span class="logo-caption">WorkHub product (employer) <mark class="fill">[CONFIRM CLIENT PERMISSION]</mark></span></li>
+                        <li class="logo-cell"><div class="logo-item"><img src="/images/theysaid-logo.png" alt="TheySaid AI survey platform logo" width="521" height="119" loading="lazy"></div><span class="logo-caption"><mark class="fill">[CONFIRM CLIENT PERMISSION]</mark></span></li>
+                        <li class="logo-cell"><div class="logo-item"><img src="/images/Core4-logo.png" alt="ATD Core4 event logo" width="806" height="305" loading="lazy"></div><span class="logo-caption"><mark class="fill">[CONFIRM CLIENT PERMISSION]</mark></span></li>
+                        <li class="logo-cell"><div class="logo-item"><img src="/images/SMG-logo.png" alt="SMG logo" width="600" height="192" loading="lazy"></div><span class="logo-caption"><mark class="fill">[CONFIRM CLIENT PERMISSION]</mark></span></li>
+                        <li class="logo-cell"><div class="logo-item"><img src="/images/Traveler_Ninja-logo.png" alt="Traveler Ninja logo" width="490" height="309" loading="lazy"></div><span class="logo-caption"><mark class="fill">[CONFIRM CLIENT PERMISSION]</mark></span></li>
+                        <li class="logo-cell"><div class="logo-item"><img src="/images/vibrantservices-logo.png" alt="Vibrant Services logo" width="196" height="61" loading="lazy"></div><span class="logo-caption"><mark class="fill">[CONFIRM CLIENT PERMISSION]</mark></span></li>
+                        <li class="logo-cell"><div class="logo-item"><img src="/images/preparebuddy-logo.png" alt="PrepareBuddy logo" width="600" height="105" loading="lazy"></div><span class="logo-caption"><mark class="fill">[CONFIRM CLIENT PERMISSION]</mark></span></li>
+                        <li class="logo-cell"><div class="logo-item"><img src="/images/woodsshop-logo.png" alt="WoodsShop logo" width="200" height="200" loading="lazy"></div><span class="logo-caption"><mark class="fill">[CONFIRM CLIENT PERMISSION]</mark></span></li>
+                        <li class="logo-cell"><div class="logo-item"><img src="/images/Frixm-logo.png" alt="Frixm logo" width="150" height="25" loading="lazy"></div><span class="logo-caption"><mark class="fill">[CONFIRM CLIENT PERMISSION]</mark></span></li>
+                    </ul>
+                </div>
+                <div class="logo-group glass-card reveal">
+                    <h3>My own projects</h3>
+                    <ul class="logo-grid" role="list" style="list-style:none">
+                        <li class="logo-cell"><div class="logo-item"><img src="/images/WriteMagicKit-logo.png" alt="WriteMagicKit AI writing tools logo" width="500" height="500" loading="lazy"></div><span class="logo-caption">Built and sold</span></li>
+                        <li class="logo-cell"><div class="logo-item"><span class="logo-caption" style="font-size:14px;color:var(--text-primary)">WebHostTricks</span></div><span class="logo-caption">Built and sold on Flippa</span></li>
+                        <li class="logo-cell"><div class="logo-item"><span class="logo-caption" style="font-size:14px;color:var(--text-primary)">SeasonalQuotes</span></div><span class="logo-caption">Launched Jan 2025</span></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -102,24 +118,24 @@
             <div class="projects-grid">
                 <!-- Own Products Section -->
                 <div class="projects-section-header">
-                    <h2>Own Products</h2>
+                    <h2>My own projects</h2>
                 </div>
                 
                 <!-- Project 1: WebHostTricks -->
                 <div class="project-card glass-card" data-category="digital-marketing">
                     <div class="project-image">
-                        <img src="images/webhosttricks-icon.png" alt="WebHostTricks" class="project-img">
+                        <img src="/images/webhosttricks-icon.png" alt="WebHostTricks affiliate blog logo" loading="lazy" class="project-img">
                         <div class="project-overlay">
                             <div class="project-actions">
-                                <button class="action-btn" onclick="openModal('webhosttricks')">
-                                    <i class="fas fa-eye"></i>
+                                <button class="action-btn" type="button" aria-label="View project details" onclick="openModal('webhosttricks')">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div class="project-content">
                         <h3>WebHostTricks</h3>
-                        <p>My first website built for affiliate marketing of web hosting and domain services. Includes informative articles and WordPress guides. Successfully sold on Flippa for $250.</p>
+                        <p>My first website built for affiliate marketing of web hosting and domain services. Includes informative articles and WordPress guides. Built, grew and sold on Flippa.</p>
                         <div class="project-details">
                             <div class="project-meta">
                                 <span><i class="fas fa-calendar"></i> 2022-2023</span>
@@ -134,8 +150,8 @@
                         </div>
                         <div class="project-stats">
                             <div class="stat">
-                                <span class="stat-number-project">$250</span>
-                                <span class="stat-label">Sale Price on Flippa</span>
+                                <span class="stat-number-project">Sold</span>
+                                <span class="stat-label">On Flippa</span>
                             </div>
                             <div class="stat">
                                 <span class="stat-number-project">1.5 Years</span>
@@ -148,18 +164,18 @@
                 <!-- Project 2: WriteMagicKit -->
                 <div class="project-card glass-card" data-category="automation web-development">
                     <div class="project-image">
-                        <img src="images/WriteMagicKit-logo.png" alt="WriteMagicKit" class="project-img">
+                        <img src="/images/WriteMagicKit-logo.png" alt="WriteMagicKit AI writing tools logo" loading="lazy" class="project-img">
                         <div class="project-overlay">
                             <div class="project-actions">
-                                <button class="action-btn" onclick="openModal('writemagickit')">
-                                    <i class="fas fa-eye"></i>
+                                <button class="action-btn" type="button" aria-label="View project details" onclick="openModal('writemagickit')">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div class="project-content">
                         <h3>WriteMagicKit</h3>
-                        <p>Free AI tools website featuring SEO and content writing tools built with ChatGPT integration. Successfully sold for $200 after 1 year of operation.</p>
+                        <p>Free AI tools website featuring SEO and content writing tools built with ChatGPT integration. Ran it for a year, then sold it.</p>
                         <div class="project-details">
                             <div class="project-meta">
                                 <span><i class="fas fa-calendar"></i> 2023-2024</span>
@@ -174,8 +190,8 @@
                         </div>
                         <div class="project-stats">
                             <div class="stat">
-                                <span class="stat-number-project">$200</span>
-                                <span class="stat-label">Sale Price</span>
+                                <span class="stat-number-project">Sold</span>
+                                <span class="stat-label">After 1 year</span>
                             </div>
                             <div class="stat">
                                 <span class="stat-number-project">Multiple</span>
@@ -188,11 +204,11 @@
                 <!-- Project 3: InspireDeals -->
                 <div class="project-card glass-card" data-category="digital-marketing seo">
                     <div class="project-image">
-                        <img src="https://inspiredeals.pk/wp-content/uploads/2024/01/logo-inspire-deals.png" alt="InspireDeals" class="project-img">
+                        <img src="https://inspiredeals.pk/wp-content/uploads/2024/01/logo-inspire-deals.png" alt="InspireDeals online store logo" class="project-img" loading="lazy">
                         <div class="project-overlay">
                             <div class="project-actions">
-                                <button class="action-btn" onclick="openModal('inspiredeals')">
-                                    <i class="fas fa-eye"></i>
+                                <button class="action-btn" type="button" aria-label="View project details" onclick="openModal('inspiredeals')">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
                                 </button>
                             </div>
                         </div>
@@ -228,11 +244,11 @@
                 <!-- Project 4: SeasonalQuotes -->
                 <div class="project-card glass-card" data-category="automation web-development">
                     <div class="project-image">
-                        <img src="images/SeasonalQuotes-icon.png" alt="SeasonalQuotes" class="project-img">
+                        <img src="/images/SeasonalQuotes-icon.png" alt="SeasonalQuotes AI quote generator preview" loading="lazy" class="project-img">
                         <div class="project-overlay">
                             <div class="project-actions">
-                                <button class="action-btn" onclick="openModal('seasonalquotes')">
-                                    <i class="fas fa-eye"></i>
+                                <button class="action-btn" type="button" aria-label="View project details" onclick="openModal('seasonalquotes')">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
                                 </button>
                             </div>
                         </div>
@@ -267,17 +283,17 @@
 
                 <!-- Client Projects Section -->
                 <div class="projects-section-header">
-                    <h2>Client Projects</h2>
+                    <h2>Client work</h2>
                 </div>
 
                 <!-- Project 5: BRAVO -->
                 <div class="project-card glass-card" data-category="digital-marketing seo">
                     <div class="project-image">
-                        <img src="https://i0.wp.com/getbravo.io/wp-content/uploads/2024/08/Home-fg.webp" alt="BRAVO" class="project-img">
+                        <img src="https://i0.wp.com/getbravo.io/wp-content/uploads/2024/08/Home-fg.webp" alt="BRAVO employee rewards software homepage" class="project-img" loading="lazy">
                         <div class="project-overlay">
                             <div class="project-actions">
-                                <button class="action-btn" onclick="openModal('bravo')">
-                                    <i class="fas fa-eye"></i>
+                                <button class="action-btn" type="button" aria-label="View project details" onclick="openModal('bravo')">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
                                 </button>
                             </div>
                         </div>
@@ -313,11 +329,11 @@
                 <!-- Project 6: WorkHub -->
                 <div class="project-card glass-card" data-category="digital-marketing seo">
                     <div class="project-image">
-                        <img src="  https://workhub.ai/wp-content/uploads/2025/01/WorkBOT-AI-Chatbot-feature-image.webp" alt="WorkHub" class="project-img">
+                        <img src="https://workhub.ai/wp-content/uploads/2025/01/WorkBOT-AI-Chatbot-feature-image.webp" alt="WorkHub WorkBot AI chatbot feature image" class="project-img" loading="lazy">
                         <div class="project-overlay">
                             <div class="project-actions">
-                                <button class="action-btn" onclick="openModal('workhub')">
-                                    <i class="fas fa-eye"></i>
+                                <button class="action-btn" type="button" aria-label="View project details" onclick="openModal('workhub')">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
                                 </button>
                             </div>
                         </div>
@@ -353,11 +369,11 @@
                 <!-- Project 7: Arcadia Studios -->
                 <div class="project-card glass-card" data-category="web-development">
                     <div class="project-image">
-                        <img src="images/arcadia-design.png" alt="Arcadia" class="project-img">
+                        <img src="/images/arcadia-design.webp" alt="Arcadia Studios homepage design" loading="lazy" class="project-img">
                         <div class="project-overlay">
                             <div class="project-actions">
-                                <button class="action-btn" onclick="openModal('arcadia')">
-                                    <i class="fas fa-eye"></i>
+                                <button class="action-btn" type="button" aria-label="View project details" onclick="openModal('arcadia')">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
                                 </button>
                             </div>
                         </div>
@@ -393,11 +409,11 @@
                 <!-- Project 8: TD.org -->
                 <div class="project-card glass-card" data-category="web-development digital-marketing">
                     <div class="project-image">
-                        <img src="images/Code4-Banner.png" alt="TD.org" class="project-img">
+                        <img src="/images/Code4-Banner.png" alt="ATD Core4 event website banner" loading="lazy" class="project-img">
                         <div class="project-overlay">
                             <div class="project-actions">
-                                <button class="action-btn" onclick="openModal('tdorg')">
-                                    <i class="fas fa-eye"></i>
+                                <button class="action-btn" type="button" aria-label="View project details" onclick="openModal('tdorg')">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
                                 </button>
                             </div>
                         </div>
@@ -433,11 +449,11 @@
                 <!-- Project 9: TheySaid -->
                 <div class="project-card glass-card" data-category="digital-marketing seo">
                     <div class="project-image">
-                        <img src="images/theysaid-logo.png" alt="TheySaid" class="project-img">
+                        <img src="/images/theysaid-logo.png" alt="TheySaid AI survey platform logo" loading="lazy" class="project-img">
                         <div class="project-overlay">
                             <div class="project-actions">
-                                <button class="action-btn" onclick="openModal('theysaid')">
-                                    <i class="fas fa-eye"></i>
+                                <button class="action-btn" type="button" aria-label="View project details" onclick="openModal('theysaid')">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
                                 </button>
                             </div>
                         </div>
@@ -474,9 +490,9 @@
     </section>
 
     <!-- Project Modal -->
-    <div class="modal" id="projectModal">
+    <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-label="Project details">
         <div class="modal-content glass-card">
-            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <button type="button" class="modal-close" aria-label="Close" onclick="closeModal()" style="background:none;border:none">&times;</button>
             <div class="modal-body" id="modalBody">
                 <!-- Content will be injected via JavaScript -->
             </div>
@@ -487,80 +503,50 @@
     <section class="projects-cta">
         <div class="container">
             <div class="cta-content glass-card">
-                <h2>Ready to Start Your Next Project?</h2>
-                <p>Let's collaborate to create innovative digital marketing solutions that drive real business results.</p>
+                <h2>Want this for your SaaS?</h2>
+                <p>Start with a free SEO + AEO audit of your site.</p>
                 <div class="cta-buttons">
-                    <a href="index.html#contact" class="btn btn-primary">Get In Touch</a>
-                    <a href="mailto:aneesm280@gmail.com" class="btn btn-secondary">Send Email</a>
+                    <a href="/#audit" class="btn btn-primary">Get a free audit</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    </main>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-info">
-                    <h3>Muhammad Anees</h3>
-                    <p>AI & Vibe Coding Evangelist. Full-Stack Marketing Execution.</p>
+                    <h2 style="font-size:20px;margin-bottom:6px">Muhammad Anees</h2>
+                    <p>SEO, AEO and GEO for B2B SaaS.</p>
+                    <ul class="footer-links">
+                        <li><a href="/seo-audit">SEO audit</a></li>
+                        <li><a href="/aeo-services">AEO services</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/#audit">Get a free audit</a></li>
+                    </ul>
                 </div>
-                
                 <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/muhammad-anees-39330612a/" target="_blank" class="social-link">
-                        <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/muhammad-anees-39330612a/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
                     </a>
-                    <a href="https://github.com/anees" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i>
+                    <a href="https://github.com/manees444" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://upwork.com/freelancers/aneesu7" target="_blank" class="social-link">
-                        <i class="fas fa-briefcase"></i>
-                    </a>
-                    <a href="https://twitter.com/anees" target="_blank" class="social-link">
-                        <i class="fab fa-twitter"></i>
+                    <a href="https://upwork.com/freelancers/aneesu7" target="_blank" rel="noopener" class="social-link" aria-label="Upwork">
+                        <i class="fas fa-briefcase" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
-            
             <div class="footer-bottom">
                 <p>&copy; <span id="currentYear"></span> Muhammad Anees. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript for Projects Page -->
+    <script src="/site.js"></script>
     <script>
-        // Mobile menu toggle
-        const hamburger = document.getElementById('hamburger');
-        const navMenu = document.getElementById('nav-menu');
-        const currentYear = document.getElementById('currentYear');
-        if (currentYear) {
-            currentYear.textContent = new Date().getFullYear();
-        }
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
-        });
-
-        // Close mobile menu when clicking on a link
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-            });
-        });
-
-        // Navbar scroll effect
-        window.addEventListener('scroll', () => {
-            const navbar = document.getElementById('navbar');
-            if (window.scrollY > 100) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-
         // Project filtering
         const filterButtons = document.querySelectorAll('.filter-btn');
         const projectCards = document.querySelectorAll('.project-card');
@@ -632,8 +618,8 @@
                         'Successfully monetized through affiliate partnerships'
                     ],
                     technologies: ['WordPress', 'SEO Tools', 'Google Analytics', 'Affiliate Networks', 'Content Marketing'],
-                    results: 'Successfully sold on Flippa for $250 after 1.5 years of operation',
-                    images: ['images/webhosttricks-stats.png']
+                    results: 'Sold on Flippa after 1.5 years of operation',
+                    images: ['/images/webhosttricks-stats.png']
                 },
                 writemagickit: {
                     title: 'WriteMagicKit - AI Tools Platform',
@@ -646,8 +632,8 @@
                         'Implemented freemium business model'
                     ],
                     technologies: ['ChatGPT API', 'JavaScript', 'PHP', 'MySQL', 'AI Integration'],
-                    results: 'Successfully sold for $200 after 1 year of operation with active user base',
-                    images: ['images/writemagickit-stats.png']
+                    results: 'Sold after 1 year of operation',
+                    images: ['/images/writemagickit-stats.png']
                 },
                 inspiredeals: {
                     title: 'InspireDeals - Local eCommerce Store',
@@ -675,7 +661,7 @@
                     ],
                     technologies: ['AI APIs', 'JavaScript', 'Modern Web Technologies', 'Responsive Design'],
                     results: 'New project launched in January 2025 with growing user engagement',
-                    images: ['images/SeasonalQuotes-design.png']
+                    images: ['/images/SeasonalQuotes-design.png']
                 },
                 bravo: {
                     title: 'BRAVO - Employee Rewards Platform',
@@ -689,7 +675,7 @@
                     ],
                     technologies: ['WordPress', 'WPBakery Builder', 'SEO Tools', 'Google Analytics', 'Figma'],
                     results: '4 years of successful digital marketing with consistent growth in organic traffic and lead generation',
-                    images: ['images/BRAVO-stats.png']
+                    images: ['/images/BRAVO-stats.png']
                 },
                 workhub: {
                     title: 'WorkHub - SaaS Platform',
@@ -703,7 +689,7 @@
                     ],
                     technologies: ['SaaS Marketing', 'AI Technologies', 'Content Management', 'SEO Tools', 'Analytics'],
                     results: 'Ongoing project since 2021 with focus on AI chatbot product positioning and market expansion',
-                    images: ['images/WorkHub-stats.png']
+                    images: ['/images/WorkHub-stats.png']
                 },
                 arcadia: {
                     title: 'Arcadia Studios - Game Development Website',
@@ -732,7 +718,7 @@
                     ],
                     technologies: ['WordPress', 'Event Management', 'Corporate Design', 'Multi-Site Management', 'Responsive Development'],
                     results: '5+ successful event websites delivering professional corporate-level design and functionality',
-                    images: ['images/Code4-Banner.png']
+                    images: ['/images/Code4-Banner.png']
                 },
                 theysaid: {
                     title: 'TheySaid - AI Survey Platform',
@@ -746,7 +732,7 @@
                     ],
                     technologies: ['AI Survey Technology', 'SaaS Marketing', 'SEO Tools', 'Content Marketing', 'Analytics'],
                     results: 'Ongoing project since December 2024 with competitive positioning against established survey platforms',
-                    images: ['images/theysaid-stats.png']
+                    images: ['/images/theysaid-stats.png']
                 }
             };
 
@@ -822,17 +808,6 @@
             fadeObserver.observe(card);
         });
 
-        const revealObserver = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('in-view');
-                }
-            });
-        }, {
-            threshold: 0.2
-        });
-
-        document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
     </script>
 </body>
 </html>
